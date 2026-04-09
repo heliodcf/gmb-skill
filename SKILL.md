@@ -436,6 +436,17 @@ from profile view to actual customer.
 - Add any scheduling link (Calendly, Acuity, proprietary system, WhatsApp)
 - At: GBP Dashboard → Edit Profile → Add Button → "Book" or "Schedule"
 
+**Category Limitation (2026):**
+- The Appointment/Booking URL field is **only available for certain primary categories**
+  — typically service-oriented ones (salons, medical offices, consultants, restaurants)
+- Categories like "Stone supplier", "Building materials supplier", "Warehouse", and
+  similar retail/wholesale categories do **NOT** have the appointment URL field
+- If the field doesn't appear in Edit Profile (under any tab: About, Contact, Location,
+  Hours, More), the category doesn't support it — this is a Google restriction, not a
+  configuration error
+- Workaround: ensure the main Website URL points to the contact/quote page with UTM
+  parameters for tracking
+
 **Online Orders (Restaurants)**
 - Integrate with DoorDash, UberEats, Grubhub, or proprietary online ordering
 - Appears as an "Order" button directly in Maps
