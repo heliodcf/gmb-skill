@@ -363,10 +363,39 @@ the freshness signal
 GBP chat allows direct contact from Google Maps and Search. Businesses that respond
 in under 24h receive the "Responds quickly" badge — visible trust signal.
 
-### Setup
-- Enable at: GBP Dashboard → Messages → Turn on
-- Configure an automated welcome message (up to 1,500 characters)
-- Install the Google Business app on a smartphone for real-time notifications
+### Setup — 2026 Interface Changes
+
+**Important:** As of 2026, Google has migrated Business Profile management into Google
+Search results. The dedicated "Messages" menu that previously appeared in the left
+navigation of business.google.com **no longer exists in the web interface** for most
+accounts.
+
+**How to enable messaging (in order of reliability):**
+
+1. **Google Business Profile mobile app (Recommended)**
+   - Download the Google Business Profile app (iOS/Android)
+   - Select the location
+   - Look for Messages or Chat in the menu
+   - Toggle ON and set the welcome message
+
+2. **Via Google Search (alternative)**
+   - Log into the Google account that owns the profile
+   - Search for the exact business name on Google
+   - The management panel appears below the search bar
+   - If a "Messages" or "Chat" toggle appears, click to enable
+   - This option is not always visible — Google rolls it out gradually
+
+3. **Via Edit Profile on web (fallback)**
+   - Go to business.google.com → select location
+   - Edit Profile → Contact tab → look for Chat or Messaging toggle
+   - Note: some accounts only show "Text message/SMS" here, not Google's
+     native messaging feature
+
+**What the web interface currently shows (2026):**
+Edit profile, Read reviews, Photos, Posts, Performance, Advertise, Edit products,
+Edit services, Ask for reviews, Profiles — but typically no dedicated "Messages" section.
+
+**After enabling:** Configure an automated welcome message (up to 1,500 characters)
 
 ### Welcome Message Template
 ```
